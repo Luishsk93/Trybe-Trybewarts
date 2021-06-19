@@ -1,5 +1,5 @@
 # Trybewarts
-Projeto do Bloco 6 da Trybe - <a href="https://luishsk93.github.io/Trybe-Trybewarts/" target="_blank">"Trybewarts</a>
+Projeto do Bloco 6 da Trybe - <a href="https://luishsk93.github.io/Trybe-Trybewarts/" target="_blank">"Trybewarts"</a>
 
 ## Habilidades desenvolvidas:
 <ul>
