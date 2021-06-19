@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+@font-face {
+  font-family: KGHappy;
+  src: url('Fonts/kg_happy/KGHAPPY.ttf') format('truetype'), url('Fonts/kg_happy/KGHAPPYShadows.ttf') format('truetype'), url('Fonts/kg_happy/KGHAPPYSolid.ttf') format('truetype');
+  font-weight: 400;
+  font-style: 400;
+}
+
+/* header */
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.trybewarts-header-logo {
+  width: 70px;
+  align-self: flex-start;
+  order: 0;
+}
+
+.header h1 {
+  color: white;
+  order: 1;
+  margin: 0 15px;
+}
+
+/* login-header */
+.trybewarts-login {
+
+  /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  order: 2;
+}
+
+.trybewarts-login input {
+  height: 28px;
+  margin: 5px;
+  background-color: whitesmoke;
+  width: 220px;
+  border: none;
+  border-radius: 3px;
+}
+
+#enter-button {
+  background-color: rgb(112, 0, 177);
+  color: white;
+  align-self: center;
+  font-family: sans-serif;
+  border-radius: 5px;
+  height: 30px;
+  margin: 5px;
+  border: none;
+  width: 70px;
+}
+
+/* main */
+#main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main {
+  display: flex;
+}
+
+span {
+  font-family: KGHappy, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 29px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+#evaluation-form {
+  align-items: center;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 5px 5px 10px black;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 15px;
+  justify-content: space-between;
+  width: 675px;
+
+  /* border: 2px solid blueviolet; */
+}
+
+#first-step {
+
+  /* border: 5px solid green; */
+  display: flex;
+  flex-direction: column;
+  font-family: KGHappy, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  height: 100px;
+  margin: 10px;
+  justify-content: space-around;
+}
+
+#first-step input {
+  margin: 5px;
+  width: 300px;
+  height: 28px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  width: 450px;
+  margin: 0 20px;
+
+  /* border: 2px solid springgreen; */
+}
+
+hr {
+  width: 650px;
+  margin: 20px 0;
+}
+
+#second-step {
+
+  /* border: 2px solid black; */
+  display: flex;
+  font-family: KGHappy, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+  justify-content: space-around;
+  margin: 8px;
+  width: 100%;
+}
+
+#family-container {
+  align-self: start;
+
+  /* border: 2px solid firebrick; */
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  width: 40%;
+}
+
+#family-choice {
+
+  /* border: 2px solid yellow; */
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#techs-container {
+
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  align-items: center;
+}
+
+#techs-options {
+
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.label-techs {
+  margin-right: 21px;
+}
+
+#third-step {
+  align-items: center;
+
+  /* border: 2px solid seagreen; */
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+  margin: 5px;
+}
+
+#label-rate {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#rate-options {
+
+  /* border: 2px solid deeppink; */
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 5px 0;
+  width: 99%;
+  align-items: center;
+}
+
+#feedback {
+
+  /* border: 2px solid darkgoldenrod; */
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+  width: 99%;
+  height: 80px;
+}
+
+#agreement-container {
+  align-items: center;
+
+  /* border: 2px solid sienna; */
+  display: flex;
+  flex-direction: column;
+  font-family: KGHappy, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  margin: 10px;
+  justify-content: space-between;
+  height: 65px;
+  width: 100%;
+}
+
+#submit-btn {
+  width: 100%;
+  background-color: seagreen;
+  border-radius: 5px;
+  border-color: seagreen;
+  height: 35px;
+}
+
+/* footer */
+#footer {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
